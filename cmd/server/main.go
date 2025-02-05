@@ -1,8 +1,11 @@
 package main
 
-import "fmt"
+import (
+	"github.com/lcv-back/go-crm-api-shopdev/internal/routers"
+)
 
 func main() {
-	fmt.Println("Hello, World!")
-	fmt.Println("This is a simple Go web server.")
+	r := routers.NewRouter()
+
+	r.Run(":8002")
 }
