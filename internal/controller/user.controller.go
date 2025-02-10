@@ -3,7 +3,7 @@ package controller
 import (
 	"github.com/gin-gonic/gin"
 	"github.com/lcv-back/go-crm-api-shopdev/internal/service"
-	"github.com/lcv-back/go-crm-api-shopdev/response"
+	"github.com/lcv-back/go-crm-api-shopdev/pkg/response"
 )
 
 type UserController struct {
